@@ -2,7 +2,7 @@ import librosa
 import matplotlib.pyplot as plt
 
 # Load the audio file
-filename = './ffmpegdata/data.wav'
+filename = './ffmpegdata/loudnorm.wav'
 y, sr = librosa.load(filename)
 
 # Calculate the dB level of the audio

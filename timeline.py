@@ -4,7 +4,7 @@ import scipy.io.wavfile as wav
 import numpy as np
 
 # Read the JSON file
-with open("audio_data.json", "r") as f:
+with open("audio_data_original.json", "r") as f:
     data = json.load(f)
 
 # Get the file path and words from the JSON file
